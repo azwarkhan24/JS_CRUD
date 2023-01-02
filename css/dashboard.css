@@ -1,0 +1,100 @@
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0px;
+}
+
+.navbar-brand img{
+  height: 40px;
+  padding-left: 30px;
+}
+
+.navbar-nav li{
+   padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+   float: right;
+   text-align: left;
+
+}
+
+#nav-bar li a:hover{
+    color: #007bff!important;
+}
+
+.navbar{
+   background: #fff;
+   padding-bottom: 0px;
+}
+
+.navbar-toggler{
+   border: none!important;
+}
+
+.nav-link{
+   color: #555!important;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+.dashboard{
+    margin-top: -520px;
+}
+.card{
+    position: relative;
+}
+.user-image{
+    opacity: 0;
+    position: absolute;
+    width: 3rem;
+    height: 14rem;
+    left: 8.5rem;
+    top: 1rem;
+
+}
+
+/* Todo */
+
+.todo{
+    
+}
+
+
+#todo{
+    width: 400px;
+}
+
+
+
+
+#list{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#list li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+	padding: 5px;
+}
+#list li p{
+    margin: 0;
+}
+
+#input_task {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+
+
+

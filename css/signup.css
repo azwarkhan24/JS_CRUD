@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(to right, black, grey,lightgrey);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 400px;
+    height: 400px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 98%;
+    background-color: whitesmoke;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+/* let apparentUser= JSON.parse(sessionStorage.getItem("apparentUser"))
+
+function getAllUsersData(){
+    const data= getAllUsersData()
+    let index=data.findIndex((user)=>{
+        return apparentUser.id == user.id
+    })
+    data.splice(index,1)
+   let html= data.map(user=>{
+        return `<h6>${user.firstname}</h6>`
+    })
+    document.querySelector('.user').innerHTML=html  
+}  */
